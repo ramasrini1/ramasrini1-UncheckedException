@@ -14,6 +14,9 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        // IndexOut of bounds cause unchecked exceptions
+        int [] arr = new int[2];
+        arr[3] = 6;
 
     }
 }
